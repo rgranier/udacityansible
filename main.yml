@@ -4,5 +4,6 @@
   connection: local
   become: True
   become_user: root
+  gather_facts: True
   roles:
     - nginx
