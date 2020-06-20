@@ -1,1 +1,4 @@
 localhost ansible_connection=local
+
+[mygroup]
+myhost-01 ansible_connection=ssh ansible_host=x.x.x.x ansible_user=myuser
