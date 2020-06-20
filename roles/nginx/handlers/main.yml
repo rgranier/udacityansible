@@ -5,3 +5,9 @@
     enabled: yes
     state: restarted
   listen: "restart nginx"
+
+  - name: Web Restart New Way
+    service:
+      name=nginx
+      state=restarted
+    listen: "restart nginx new"
