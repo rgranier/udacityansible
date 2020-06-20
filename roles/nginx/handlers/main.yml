@@ -1,7 +1,4 @@
-- name: Restart Nginx and start at boot
-  systemd:
-    name: nginx
-    daemon_reload: yes
-    enabled: yes
-    state: started
-    listen: "restart nginx"
+- name: restart nginx
+  service:
+    name=nginx
+    state=restarted
