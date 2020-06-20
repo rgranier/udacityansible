@@ -1,4 +1,4 @@
-- name: Enable Nginx service
+- name: restart web
   systemd:
     name: nginx
     daemon_reload: yes
