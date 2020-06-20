@@ -1,4 +1,4 @@
-- name: Web Restart
+- name: Web Restart Old Way
   systemd:
     name: nginx
     daemon_reload: yes
