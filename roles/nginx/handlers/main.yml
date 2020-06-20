@@ -3,5 +3,5 @@
     name: nginx
     daemon_reload: yes
     enabled: yes
-    state: started
+    state: restarted
   listen: "restart nginx"
