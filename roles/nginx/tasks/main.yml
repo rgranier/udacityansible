@@ -20,4 +20,4 @@
       owner: root
       group: root
       mode: 0744
-  notify: "restart web"
+  notify: "restart nginx"
