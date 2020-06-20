@@ -1,5 +1,7 @@
 - name: Web Restart
-  service:
-    name=nginx
-    state=restarted
+  systemd:
+    name: nginx
+    daemon_reload: yes
+    enabled: yes
+    state: started
   listen: "restart nginx"
