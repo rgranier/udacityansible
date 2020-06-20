@@ -11,7 +11,7 @@
       owner: root
       group: root
       mode: 0744
-  notify: restart nginx new
+  notify: restart nginx
 
 - name: Generate index.html
   template:
@@ -20,4 +20,4 @@
       owner: root
       group: root
       mode: 0744
-  notify: restart nginx new
+  notify: restart nginx
