@@ -11,6 +11,7 @@
       owner: root
       group: root
       mode: 0744
+  notify: "restart web"
 
 - name: Generate index.html
   template:
@@ -19,3 +20,4 @@
       owner: root
       group: root
       mode: 0744
+  notify: "restart web"
